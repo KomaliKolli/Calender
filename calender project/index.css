@@ -1,0 +1,43 @@
+body{
+    background-color: tomato;
+}
+.calender{
+    margin: auto;
+    max-width: 800px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+}
+.month{
+    text-align: center;
+    background-color: white;
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: black;
+    border: 3px solid red;
+}
+
+table, th, td{
+    width: 100px;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 27px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    font-family: Elaphant;
+}
+tr,th,td{
+    padding: 15px;
+}
+th{
+    background: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    background: hotpink;
+    color: blue;
+}
+td:hover{
+    background: orange;
+}
